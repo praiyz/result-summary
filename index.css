@@ -1,0 +1,12 @@
+body {
+  background-color: orange;
+}
+main {
+  display: flex;
+  justify-content: center;
+  height: 25rem;
+}
+.left {
+  background-color: hsla(241, 72%, 46%, 0);
+  border-radius: 20px;
+}
