@@ -1,12 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+
 body {
-  background-color: orange;
+  background-color: rgb(219, 219, 219);
+  font-size: 18px;
+  display: flex;
+  flex-direction: center;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+
 main {
   display: flex;
   justify-content: center;
-  height: 25rem;
+  background-color: white;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
 }
+
 .left {
-  background-color: hsla(241, 72%, 46%, 0);
+  background-color: hsl(241, 81%, 54%);
   border-radius: 20px;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.right {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px 20px 40px;
+  height: fit-content;
+  gap: 10px;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.scores div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.reaction {
+  background-color: #fff6f5;
+  border-radius: 15px;
+}
+
+.reaction > *:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: hsla(0, 100%, 67%);
+}
+
+.memory {
+  background-color: #fffbf2;
+  border-radius: 15px;
+}
+.memory > * :first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: hsl(39, 100%, 56%);
+}
+.verbal {
+  background-color: #f2fbfa;
+  border-radius: 15px;
+}
+.verbal > *:first-child {
+  display: flex;
+  align-items: center;
+}
+.visual {
+  background-color: #f3f3fd;
+}
+
+.visual > *:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: hsl(234, 85%, 45%);
+}
+
+#result {
+  color: white;
+  opacity: 0.7;
+}
+
+.left-score {
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-score > h1 {
+  font-size: 3.5rem;
+  color: white;
+  margin: 0;
+}
+
+.left-score > p {
+  color: white;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.great {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 14rem;
+  gap: 15px;
+}
+
+.great > h3 {
+  color: white;
+  margin: 0;
+}
+
+.great > p {
+  color: white;
+  opacity: 0.5;
+  text-align: center;
+  margin: 0;
+}
+
+.faded-text {
+  color: #b7b1b7;
+  font-weight: bold;
+}
+
+.bold-text {
+  color: #2e2b3e;
+  font-weight: bold;
+}
+p {
+  margin: 0;
+}
+button {
+  background-color: #303b59;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
