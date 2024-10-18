@@ -167,3 +167,41 @@ button {
   padding: 10px 20px;
   cursor: pointer;
 }
+@media (max-width: 767px) {
+    /* Styles for mobile devices */
+    main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:fit-content;
+        gap:20px;
+
+
+    }
+    body{
+        overflow-x: hidden;
+        height:100vh;
+        background-color: #303b59;
+        margin:0;
+    }
+    
+    .left{
+      width:95%;  
+    }
+    .great{
+        width:20rem;
+    }
+    #result{
+        font-size: 1.5rem;
+    }
+    #summary{
+      font-size: 1.5rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablet devices */
+}
+@media (min-width: 1025px) {
+    /* Styles for desktop devices */
+}
+
